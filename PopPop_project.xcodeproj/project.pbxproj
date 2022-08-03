@@ -17,6 +17,11 @@
 		BD147D6A2899C7D7001B190D /* PopPop_projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D692899C7D7001B190D /* PopPop_projectTests.swift */; };
 		BD147D742899C7D7001B190D /* PopPop_projectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D732899C7D7001B190D /* PopPop_projectUITests.swift */; };
 		BD147D762899C7D7001B190D /* PopPop_projectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D752899C7D7001B190D /* PopPop_projectUITestsLaunchTests.swift */; };
+		BD147D832899EC16001B190D /* concertnearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D822899EC16001B190D /* concertnearViewController.swift */; };
+		BD147D852899EC52001B190D /* artistpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D842899EC52001B190D /* artistpageViewController.swift */; };
+		BD147D872899EC76001B190D /* tourdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D862899EC76001B190D /* tourdateViewController.swift */; };
+		BD147D892899EC8E001B190D /* venueinfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D882899EC8E001B190D /* venueinfoViewController.swift */; };
+		BD147D8B2899ED33001B190D /* archiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD147D8A2899ED33001B190D /* archiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		BD147D6F2899C7D7001B190D /* PopPop_projectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopPop_projectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD147D732899C7D7001B190D /* PopPop_projectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopPop_projectUITests.swift; sourceTree = "<group>"; };
 		BD147D752899C7D7001B190D /* PopPop_projectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopPop_projectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD147D822899EC16001B190D /* concertnearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concertnearViewController.swift; sourceTree = "<group>"; };
+		BD147D842899EC52001B190D /* artistpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artistpageViewController.swift; sourceTree = "<group>"; };
+		BD147D862899EC76001B190D /* tourdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tourdateViewController.swift; sourceTree = "<group>"; };
+		BD147D882899EC8E001B190D /* venueinfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = venueinfoViewController.swift; sourceTree = "<group>"; };
+		BD147D8A2899ED33001B190D /* archiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = archiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,11 @@
 				BD147D5D2899C7D7001B190D /* LaunchScreen.storyboard */,
 				BD147D602899C7D7001B190D /* Info.plist */,
 				BD147D582899C7D7001B190D /* PopPop_project.xcdatamodeld */,
+				BD147D822899EC16001B190D /* concertnearViewController.swift */,
+				BD147D842899EC52001B190D /* artistpageViewController.swift */,
+				BD147D862899EC76001B190D /* tourdateViewController.swift */,
+				BD147D882899EC8E001B190D /* venueinfoViewController.swift */,
+				BD147D8A2899ED33001B190D /* archiveViewController.swift */,
 			);
 			path = PopPop_project;
 			sourceTree = "<group>";
@@ -261,10 +276,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD147D852899EC52001B190D /* artistpageViewController.swift in Sources */,
 				BD147D542899C7D7001B190D /* ViewController.swift in Sources */,
 				BD147D502899C7D7001B190D /* AppDelegate.swift in Sources */,
 				BD147D522899C7D7001B190D /* SceneDelegate.swift in Sources */,
+				BD147D8B2899ED33001B190D /* archiveViewController.swift in Sources */,
 				BD147D5A2899C7D7001B190D /* PopPop_project.xcdatamodeld in Sources */,
+				BD147D872899EC76001B190D /* tourdateViewController.swift in Sources */,
+				BD147D892899EC8E001B190D /* venueinfoViewController.swift in Sources */,
+				BD147D832899EC16001B190D /* concertnearViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
